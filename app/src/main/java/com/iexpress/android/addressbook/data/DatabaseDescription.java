@@ -9,8 +9,7 @@ import android.provider.BaseColumns;
 
 public class DatabaseDescription {
    // ContentProvider's name: typically the package name
-   public static final String AUTHORITY =
-      "com.deitel.addressbook.data";
+   public static final String AUTHORITY = DatabaseDescription.class.getPackage().getName(); // "com.iexpress.android.addressbook.data";
 
    // base URI used to interact with the ContentProvider
    private static final Uri BASE_CONTENT_URI =
