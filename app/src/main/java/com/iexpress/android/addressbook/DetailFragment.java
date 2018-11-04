@@ -141,8 +141,6 @@ public class DetailFragment extends Fragment
       );
 
       builder.setNegativeButton(R.string.button_cancel, null);
-      // use FragmentManager to display the confirmDelete DialogFragment
-      builder.setPositiveButton( "confirm delete", null);
 
       builder.show();
    }
